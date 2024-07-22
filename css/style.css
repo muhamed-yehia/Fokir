@@ -1,0 +1,751 @@
+/***********************************start task******************************************************************/
+
+/************************************************* global effect *****************/
+.clr{clear: both;}
+.headersection{
+   width: 100%;
+   height: 100%;
+   background-color: tomato;
+   position: relative;
+}
+body{margin: 0;}
+/************************************************* start background *************************************/
+.background{
+   background-image: url(../images/hero\ img.jpg);
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.backgroundcolor{ 
+   background-color: rgba(0, 0, 0, 0.829);
+   width: 100%;
+   height: 100%;
+}
+/************************************************* end background *************************************/
+/*************************************************navbar start ***************************************/
+.navbar{ 
+   width: 100%;
+   height: 80px;
+   background-color: rgba(255, 99, 71, 0);
+   position: absolute ;
+}
+.navbarmain{width: 75%;
+   height: 80px;
+   margin: auto;
+   background-color: rgba(0, 0, 0, 0);
+}
+.nbicon1{
+   width: 25% ;
+   padding: 25px;
+   float: left;
+}
+.nbicon1 a{
+   font-size: 24px;
+   text-decoration: none;
+   color: #ff305b ;
+   font-family: "Roboto", sans-serif;
+   font-weight: 800;
+}
+.nbicons2{
+   width: 70% ;
+   float: right;
+  padding-top: 30px;
+}
+.nbicons2 a{
+   padding: 30px 10px;
+   font-size: 16px;
+   text-decoration: none;
+   color: white;
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+}
+a.home{ color: #ff305b;}
+/*************************************************navbar end ***************************************/
+/*************************************************txt start ***************************************/
+.maintxt{
+   position: absolute ;
+   top: 50%;
+   right: 30%;
+   left: 30%;
+   color: white;
+   text-align: center;
+}
+.maintxt h2{
+   font-size: 28px ;
+   font-family: "Source Sans 3", sans-serif;
+   margin: 0;}
+.maintxt h1{
+   font-size: 70px ;
+   color: #ff305b;
+   font-family: "Source Sans 3", sans-serif;
+   margin: 0;
+}
+.maintxt h3{
+   font-size: 28px ;
+   font-family: "Source Sans 3", sans-serif;
+   font-weight: 100;
+   margin: 0;}
+/*********************************************** txt end ***************************************/
+/*********************************************** section 2 ***************************************/
+.section2{
+   width: 80%;
+   height: 650px;
+   background-color: rgba(0, 128, 128, 0);
+   margin: auto;
+   padding-top: 50;
+}
+.containor1{
+   width: 80%;
+margin: auto;
+}
+/********************************profile start ****************************/
+.border{ 
+   width: 30%;
+   height: 400px;
+   background-color: #ff305900;
+   border-radius: 8px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #555555;
+   position: relative;
+   float: left;}
+   
+.profile{ 
+   background-color: #000000;
+   width: 300px;
+   height: 400px;
+   position: absolute;
+   top: 20px;
+   left: 35px;
+   background-image: url(../images/about.jpg);
+   background-size: cover;
+   border-radius: 8px;
+position: relative;}
+.cover{
+   background-color: #555a6000;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   
+}
+.cover:hover{
+   background-color: #555a60ab;
+}
+
+
+
+
+
+.profiletxt{
+   width: 50%;
+   float: right;
+   border-bottom: dashed;
+   border-width: 1px;
+
+}
+.profiletxt h3{
+   font-size: 34px;
+   font-weight: 400px;
+   font-family: "Source Sans 3", sans-serif;
+   color: #333333;
+   position: relative;
+}
+.profiletxt h3::after{
+   background: #ff305b none repeat scroll 0 0;
+   content: "";
+   height: 60%;
+   left: -15px;
+   position: absolute;
+   top: 8px;
+   width: 4px;
+}
+.profiletxt p{
+   font-size: 16px;
+   font-weight: 300;
+   font-family: "Roboto", sans-serif;
+   color: #555A60;
+}
+/****************************profile end **********************/
+/************************list start *******************************/
+.list{
+   width: 50%;
+   float: right;
+   font-family: "Roboto", sans-serif;
+   position: relative;
+}
+.list ul{
+display: table;
+list-style: outside none none;
+}
+.list ul li{
+   font-size: 14px;
+   float: left;
+   width: 44%;
+   padding: 10px;}
+.list span{
+   font-size: 18px;
+   font-weight: bold;}
+.list button{
+   width: 130px;
+   height: 40px;
+   background-color: #ff305b;
+   color: white;
+   border: 0;
+   border-radius: 4px;
+   display: inline-block;
+}
+.button{
+padding-left: 50 px;
+padding-bottom: 50px;
+position: absolute;
+left: 60px;
+
+}
+
+/************************list end *******************************/
+/************************section 3 *******************************/
+.containor2{
+   width: 94.6%;
+   background-color: #f1f1f1;
+   padding: 50px;
+   margin: auto;
+}
+.mainsection2{
+   width: 80%;
+   margin: auto;
+}
+.servicetxt{
+   text-align: center;
+   margin-top: 50px;
+   color: #333333;
+
+}
+.servicetxt h2{ 
+   font-size: 40px;
+   font-weight: 800;
+   font-family: "Source Sans 3", sans-serif;   
+   position: relative;
+}
+.servicetxt h2::after{
+   content: '';
+   width: 160px; 
+   height: 1px;
+   background-color: #ff305b;
+   border-bottom: #f1f1f1 solid;
+   border-top: #f1f1f1 solid;
+   border-width: 5px;
+   position: absolute;
+   bottom: -15px;
+   left: 435px;
+}
+.servicetxt h2::before{
+   content: '';
+   width: 85px; 
+   height: 13px;
+   background-color: #ff305b;
+   position: absolute;
+   bottom: -16px;
+   left: 470px;
+}
+
+
+
+.txt1{
+   padding-top: 40px;
+   width: 25%;
+   display: block;
+   text-align: center;
+   float: left;
+
+}
+.txt1 h2{ 
+   font-size: 24px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #333333;
+}
+.txt1 p{ 
+   font-size: 18px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #555555;
+}
+.txt2{
+   padding-top: 40px;
+   width: 25%;
+   display: block;
+   text-align: center;
+   float: left;
+
+}
+.txt2 h2{ 
+   font-size: 24px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #333333;
+}
+.txt2 p{ 
+   font-size: 18px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #555555;
+}
+.txt3{
+   padding-top: 40px;
+   width: 25%;
+   display: block;
+   text-align: center;
+   float: left;
+}
+.txt3 h2{ 
+   font-size: 24px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #333333;
+}
+.txt3 p{ 
+   font-size: 18px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #555555;
+}
+.txt4{
+   padding-top: 40px;
+   width: 25%;
+   display: block;
+   text-align: center;
+   float: left;
+}
+.txt4 h2{ 
+   font-size: 24px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #333333;
+}
+.txt4 p{ 
+   font-size: 18px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #555555;
+}
+/************************ section 3 end *******************************/
+
+/************************section 4 start *******************************/
+.containor3{
+   width: 100%;
+}
+.mainsection4{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   color: #333333;
+}
+.txtsection4 h3{
+   font-size: 40px;
+   font-weight: 800;
+   font-family: "Source Sans 3", sans-serif;
+   position: relative;
+}
+.txtsection4 h3::after{
+   content: '';
+   width: 200px; 
+   height: 1px;
+   background-color: #ff305b;
+   border-bottom: #ffffff solid;
+   border-top: #ffffff solid;
+   border-width: 5px;
+   position: absolute;
+   bottom: -20px;
+   left: 445px;
+}
+.txtsection4 h3::before{
+   content: '';
+   width: 125px; 
+   height: 13px;
+   background-color: #ff305b;
+   position: absolute;
+   bottom: -21px;
+   left: 480px;
+}
+
+.txtsection4 a{
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 400;
+   font-family: "Source Sans 3", sans-serif;
+   padding: 15px;
+   color: #333333;
+}
+/************************* section4 txt end *********************/
+.imgsection4{
+   width: 100%;
+   margin: auto;
+   padding: 50px;
+}
+.images{
+   width: 30%;
+   height: 300px;
+   display: inline-block;
+}
+.images img{
+   padding: 20px;
+   padding-left: 10px;
+   width: 95%;
+   height: 100%;
+}
+/************************* section4 img end ***************************/
+
+/************************section 5 start *******************************/
+.containor4 {
+   width: 100%;
+   background-color: #f1f1f1;
+}
+.statistic{ 
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: center;
+   display: block;
+   width: 25%;
+   float: left;
+}
+.statistic h2{
+   font-size: 30px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #000000;
+}
+.statistic p{
+   font-size: 18px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+   color: #555555;
+}
+/************************section 5 end *******************************/
+
+/************************section 6 start *****************************/
+.clientfeedback{ 
+   width: 100%;
+   padding-top: 50px;
+}
+.mainlientfeedback{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+.clientfeedbacktxt{ width: 100%;
+margin: auto;
+text-align: center;
+padding-bottom: 40px;}
+.clientfeedbacktxt h2{    font-size: 40px;
+   font-weight: 800;
+   font-family: "Source Sans 3", sans-serif;
+   color: black;
+position: relative;}
+.clientfeedbacktxt h2::after{
+   content: '';
+   width: 200px; 
+   height: 1px;
+   background-color: #ff305b;
+   border-bottom: #ffffff solid;
+   border-top: #ffffff solid;
+   border-width: 5px;
+   position: absolute;
+   bottom: -30px;
+   left: 440px;
+}
+.clientfeedbacktxt h2::before{
+   content: '';
+   width: 100px; 
+   height: 13px;
+   background-color: #ff305b;
+   position: absolute;
+   bottom: -31px;
+   left: 485px;
+}
+.ClientFeedbackitems{
+   width: 50%;
+   height: 250px;
+   border-radius: 5px;
+   background-color: #F1F1F1;
+   text-align: left;
+   margin: auto;
+}
+.clientfeedbackimg{
+   width: 35%;
+   margin: auto;
+   display: inline-block;
+   position: relative;
+}
+.clientfeedbackimg img{
+   border-radius: 50%;
+   position: absolute;
+   top: -175px;
+   left: 50px;
+}
+.feedbacktxt{
+   width: 60%;
+   text-align: left;
+   padding-left: 20px;
+   padding-top: 20px;
+display: inline-block;}
+.feedbacktxt h3{
+   color: #333333;
+   font-size: 26px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+}
+.feedbacktxt a{
+   color: #777777 ;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: 600;
+   font-family: "Source Sans 3", sans-serif;
+}
+.feedbacktxt p{
+   color: #555555 ;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: "Source Sans 3", sans-serif;
+   font-family: "Roboto", sans-serif;
+}
+
+
+/************************section 6 end *****************************/
+/************************section 7 start *****************************/
+
+.containor5{
+   width: 100%;
+   height: 700px;
+   background-color: #f1f1f1;
+   margin-top: 50px;
+}
+.mainsection6{
+   margin-top: 50px;
+   width: 80%;
+   margin: auto;
+   background-color: #f1f1f1;
+   text-align: center; 
+}
+.blogmaintxt{
+   padding-top: 50px;
+   text-align: center;
+}
+.blogmaintxt h2{
+   font-size: 40px;
+   font-weight: 800;
+   font-family: "Source Sans 3", sans-serif;
+   color: #333333;
+   position: relative;
+}
+.blogmaintxt h2::after{
+   content: '';
+   width: 160px; 
+   height: 1px;
+   background-color: #ff305b;
+   border-bottom: #f1f1f1 solid;
+   border-top: #f1f1f1 solid;
+   border-width: 5px;
+   position: absolute;
+   bottom: -15px;
+   left: 460px;
+}
+.blogmaintxt h2::before{
+   content: '';
+   width: 85px; 
+   height: 13px;
+   background-color: #ff305b;
+   position: absolute;
+   bottom: -16px;
+   left: 495px;
+}
+.blogmainitems{ 
+   width: 96%;
+   margin: auto;
+   background-color: #f1f1f1;
+}
+.blogitem{
+   width: 33%;
+   text-align: left ;
+   display: inline-block;
+   background-color: white;
+   padding-bottom: 30px;
+}
+   
+.blogitem img{
+   width: 100%;
+
+}
+.blogitem h3{
+   padding-left: 15px;
+   color: #555555;
+   font-size: 16px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+}
+.blogitem p{
+   padding-left: 15px;
+   color: #555555;
+   font-size: 16px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+}
+.blogitem a{
+   padding-left: 15px;
+   text-decoration: none;
+   color: #000000;
+   font-size: 24px;
+   font-family: "Source Sans 3", sans-serif;
+   font-weight: 600;
+}
+a.anchor2{
+color: #333333;
+font-weight: 200;
+font-size: 16px;
+font-family: "Roboto", sans-serif;
+}
+/************************section 7 end *******************************/
+
+/************************section 8 start *******************************/
+.containor6{ 
+   width: 100%;
+   padding-top: 50px;
+}
+.mainsection7{
+   width: 60%;
+   margin: auto;
+   text-align: center;
+}
+.txtsection7{ width: 100%;
+margin: auto;
+text-align: center;
+padding-bottom: 40px;}
+.txtsection7 h3{    font-size: 40px;
+   font-weight: 800;
+   font-family: "Source Sans 3", sans-serif;
+   color: black;
+position: relative;}
+.txtsection7 h3::after{
+   content: '';
+   width: 160px; 
+   height: 1px;
+   background-color: #ff305b;
+   border-bottom: #ffffff solid;
+   border-top: #ffffff solid;
+   border-width: 5px;
+   position: absolute;
+   bottom: -20px;
+   left: 330px;
+}
+.txtsection7 h3::before{
+   content: '';
+   width: 85px; 
+   height: 13px;
+   background-color: #ff305b;
+   position: absolute;
+   bottom: -21px;
+   left: 365px;
+}
+.form{ 
+   width: 100%;
+   height: 400px;
+   margin: auto;
+   position: relative;
+}
+.input1{
+   width: 40%;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+.input1 input{ 
+   width :350px;
+   height: 40px;
+   border: #A94442 solid;
+   border-width: 1px;
+   border-radius: 5px;
+   margin-right: 40px;
+   margin-bottom: 20px;
+
+}
+.input2{
+   width: 40%;
+   display: inline-block;
+   margin-bottom: 20px;
+
+}
+.input2 input{ 
+   width :350px;
+   height: 40px;
+   border: #A94442 solid;
+   border-width: 1px;
+   border-radius: 5px;
+   margin-left: 40px;
+   margin-bottom: 20px;
+}
+.input3{
+   width: 80%;
+   margin-left: 40px;
+
+}
+.input3 input{ 
+   width :716px;
+   height: 40px;
+   border: #A94442 solid;
+   border-width: 1px;
+   border-radius: 5px;
+   margin-left: 40px;
+   margin-bottom: 20px;
+}
+.input4{
+   width: 80%;
+   margin-left: 40px;
+
+}
+.input4 textarea{ 
+   width :716px;
+   height: 100px;
+   border: #A94442 solid;
+   border-width: 1px;
+   border-radius: 5px;
+   margin-left: 40px;
+   margin-bottom: 20px;
+   resize: both;
+}
+.form button{
+   width: 150px;
+   height: 40px;
+   background-color: #ff305b;
+   border-width: 0;
+   border-radius: 5px;
+   color: white;
+   position: absolute;
+   left: 80px;
+
+}
+/************************section 8 end *******************************/
+/************************section 9 start *******************************/
+.containor7{
+   width: 100%;
+   height: 200px;
+   background-color: #333333;
+   text-align: center;
+}
+.section8{
+width: 80%;
+margin: auto;}
+.section8 h4{
+   color: white;
+   font-size: 18px;
+   font-weight: 400;
+   font-family: "Roboto", sans-serif;
+}
+.asection8{
+padding-top: 50px;}
+.vip{
+   color: #ff305b;
+   text-decoration: none;
+}
+/************************section 9 end *******************************/
+/***************************finished ********************************/
